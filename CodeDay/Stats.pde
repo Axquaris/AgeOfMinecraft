@@ -32,9 +32,9 @@ class Stats {
   }
   
   void updateCosts() {
-    cost = (int)(Math.pow(1.4, health) + Math.pow(1.4, armour) + Math.pow(1.4, damage));
-    healthCost = (int)(cost*(1+Math.pow(1.5, healthUps)));
+    cost = 5*(int)(Math.pow(1.5, health) + Math.pow(2, armour) + Math.pow(1.7, damage));
+    healthCost = (int)(cost*(1+Math.pow(1.4, healthUps)));
     armourCost = (int)(cost*(1+Math.pow(1.5, armourUps)));
-    damageCost = (int)(cost*(1+Math.pow(1.5, damageUps)));
+    damageCost = (int)(cost*(1+Math.pow(1.4, damageUps)));
   }
 }

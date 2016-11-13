@@ -13,7 +13,7 @@ class Pikeman extends Unit {
     if (other.armour < damage) {
       dmgout = damage - other.armour;
     }
-    other.armour -= 2;
+    other.armour -= 3;
     if (other.armour <= 0)
       other.armour = 0;
     

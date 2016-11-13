@@ -157,7 +157,7 @@ void keyPressed() {
     else {
       if (p1Stats.gold >= p1Stats.incomeCost) {
         p1Stats.gold -= p1Stats.incomeCost;
-        p1Stats.income *= 1.2;
+        p1Stats.income *= 1.4;
         p1Stats.updateCost();
       }
     }
@@ -327,7 +327,7 @@ void keyPressed() {
     else {
       if (p2Stats.gold >= p2Stats.incomeCost) {
         p2Stats.gold -= p2Stats.incomeCost;
-        p2Stats.income *= 1.2;
+        p2Stats.income *= 1.4;
         p2Stats.updateCost();
       }
     }
